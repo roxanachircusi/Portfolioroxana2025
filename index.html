@@ -11,10 +11,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
 
   <title>Portfolio di Roxana Chircusi</title>
-  <link rel="icon" type="image/ico" href="Contenuti/R.ico">
+  <link rel="icon" type="image/ico" href="Assets/R.ico">
 
 </head>
 
@@ -58,7 +58,7 @@
     <!-- SECTION 1: Hero -->
     <section class="hero-section">
       <div class="text">
-        <h2>Ciao, sono Roxana! 👋</h2>
+        <h1>Ciao, sono Roxana! 👋</h1>
         <p>Amo la creatività e la comunicazione, specialmente quando fanno squadra.
             Al liceo delle Scienze Umane ho capito quanto le parole possano cambiare il mondo (o almeno la percezione che ne abbiamo!).
             Mi sono laureata in Scienze della Comunicazione e ho scoperto che la pubblicità è il mio habitat naturale.
@@ -83,7 +83,7 @@
       </div>
 
       <div class="headshot">
-        <img src="Contenuti/foto.png" alt="foto Roxana Chircusi">
+        <img src="Assets/foto.png" alt="foto Roxana Chircusi">
       </div>
     </section>
 
@@ -98,42 +98,42 @@
 
       <div class="cells">
         <div class="cell">
-          <img src="Contenuti/iconahtml.png" alt="html logo">
+          <img src="Assets/iconahtml.png" alt="html logo">
           <span>HTML</span>
         </div>
         
         <div class="cell">
-          <img src="Contenuti/iconacss.png" alt="css logo">
+          <img src="Assets/iconacss.png" alt="css logo">
           <span>CSS</span>
         </div>
         
         <div class="cell">
-          <img src="Contenuti/iconaillustrator.png" alt="Illustrator logo">
+          <img src="Assets/iconaillustrator.png" alt="Illustrator logo">
           <span>Illustrator</span>
         </div>
         
         <div class="cell">
-          <img src="Contenuti/iconaphotoshop.png" alt="Photoshop logo">
+          <img src="Assets/iconaphotoshop.png" alt="Photoshop logo">
           <span>Photoshop</span>
         </div>
         
         <div class="cell">
-          <img src="Contenuti/iconablender.png" alt="Blender Logo">
+          <img src="Assets/iconablender.png" alt="Blender Logo">
           <span>Blender</span>
         </div>
 
         <div class="cell">
-            <img src="Contenuti/iconacanva.png" alt="Canva Logo">
+            <img src="Assets/iconacanva.png" alt="Canva Logo">
             <span>Canva</span>
           </div>
 
           <div class="cell">
-            <img src="Contenuti/iconafigma.png" alt="Figma Logo">
+            <img src="Assets/iconafigma.png" alt="Figma Logo">
             <span>Figma</span>
           </div>
 
           <div class="cell">
-            <img src="Contenuti/iconaoffice.png" alt="Office Logo">
+            <img src="Assets/iconaoffice.png" alt="Office Logo">
             <span>Office</span>
           </div>
       </div>
@@ -161,20 +161,14 @@
           <textarea id="message" cols="30" rows="10"></textarea>
             
           <button type="button">Invia Messaggio</button>
-    
         </form>
       </div>
     </section>
   </main>
-  <script>
-    const toggleButton = document.querySelector('.central-menu-toggle');
-    const menu = document.querySelector('.central-menu');
-  
-    toggleButton.addEventListener('click', () => {
-      menu.classList.toggle('show');
-    });
-  </script>
-  
+
+  <!--collegamento menu-toggle.js-->
+  <script src="menu-toggle.js"></script>  
+
 </body>
 <footer class="site-footer">
     <div class="footer-links">
